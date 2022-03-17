@@ -1,0 +1,46 @@
+img {
+    object-fit: cover;
+}
+
+.carousel {
+    height: 15rem;
+}
+
+.card .my-card-img {
+    height: 11.75rem;
+}
+
+.my-team-heading {
+    margin-left: 3rem;
+}
+
+.my-team-card {
+    background-color: transparent;
+    width: 14rem;
+}
+
+.my-map {
+    height: 15rem;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .carousel {
+        height: 20.5rem;
+    }
+
+    .card .my-card-img {
+        height: 18.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .my-card {
+        width: 20rem;
+    }
+
+    .card .my-card-img {
+        height: 16rem;
+    }
+}
